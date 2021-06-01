@@ -1,0 +1,12 @@
+	 <activity android:name=".updateProfile"></activity>
+        <activity android:name=".userDetails" />
+        <activity android:name=".Home"></activity>
+        <activity android:name=".SignUp" />
+        <activity android:name=".Log" />
+        <activity android:name=".login">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
